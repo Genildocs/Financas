@@ -1,0 +1,15 @@
+Para criar a api:
+    -Instalar o djangorestframework
+    -Por padrão o django vem com uma estrutura de segurança que bloqueia solicitações
+    provenientes de dominios extenos. Para desabilitar instalamos o pacote:
+    django-cors-headers
+    -Serializadores ajudam a converter tipos complexos ou instancias de modelo em tipos de dados python nativos
+    que podem ser facilmente renderizados em json ou xml, ou outros conteudos.
+    Eles também ajudam na desserialização, que nada mais é do converter os dados anteriores de volta em
+    tipos complexos.
+    -Importar o decorador csrf para poder permitir que outros dominios acessem os metodos da api
+    -Necessario o analisador json para analisar os dados recebidos no modelo de dados
+    -No metodo get retornaremos todos os registros no formato json, utilizamos o uso da classe serializadora para converter os dados
+    para o formatos json.
+    -O metodo post será utilizado para inserir um novo dado em nosso banco de dados.
+    -O metodo PUT será usado para atualizar um determinado registro

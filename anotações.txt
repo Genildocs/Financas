@@ -1,0 +1,20 @@
+Aplicação deve mostrar dividas e compras que eu realizo.
+-DIVIDAS
+    -Banco
+    -valor da divida
+    -Se foi renegociado
+    -Pago a vista ou parcelado
+        -Se parcelado: total de parcelas e valor restante para pagar
+        -data da renegociação
+        -Vencimento de cada parcela
+        -data de pagamento
+
+
+-COMPRAS
+    -Produto
+    -valor do produto
+    -se pago a vista ou parcelado
+        -Se parcelado: total de parcelas e valor restante para pagar
+        -data da compra
+        -vencimento de cada parcela
+        -data de pagamento
